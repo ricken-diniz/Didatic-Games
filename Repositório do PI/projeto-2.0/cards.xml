@@ -1,0 +1,81 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<cards>
+    <card id="1">
+        <titulo>Palavras cruzadas online</titulo>
+        <resumo>Trata-se de uma versão digital do clássico jogo de palavras cruzadas, adaptado para ser jogado na internet. O objetivo é preencher as lacunas de um diagrama com palavras que se cruzam vertical e horizontalmente, utilizando as dicas fornecidas. Os jogadores têm acesso a diferentes níveis de dificuldade, desde iniciante até avançado, permitindo que sejam desafiados de acordo com seu conhecimento e habilidades linguísticas. O jogo oferece uma ampla variedade de temas, como esportes, cinema, música, história, geografia e muito mais, proporcionando diversão e aprendizado ao mesmo tempo.</resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>teclado e mouse</necessidades>
+            <classificação>Para todos</classificação>
+            <plataforma>App Mobile e Web PC</plataforma>
+        </caracteristicas>
+        <link>https://www.soportugues.com.br/secoes/jogos/palavrasCruzadas/index.php</link>
+    </card>
+    <card id="2">
+        <titulo>Rapid math</titulo>
+        <resumo>Um jogo de matemática feito para melhorar seu raciocínio rápido relacionado à contas básicas, nele você tem um determinado tempo para resolver algumas expressões numéricas, quando resolvidas, passa ao próximo nível, o qual vai aumentando a dificuldade. Ao acertar você recebe um bônus de tempo e ao errar uma multa do mesmo, o jogo é composto por 30 níveis com diferentes dificuldades, melhorando o raciocínio rápido. </resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>mouse</necessidades>
+            <classificação>Para maiores de 15 anos</classificação>
+            <plataforma>Web PC, Mobile</plataforma>
+        </caracteristicas>
+        <link>https://www.coquinhos.com/calculos-mentais-matematicas/play/</link>
+    </card>
+    <card id="3">
+        <titulo>Limpar o laboratório</titulo>
+        <resumo>O jogo consiste em limpar o laboratório, depois de uma semana de aulas intensas que o deixou numa grande bagunça, organizando os utensílios em seus determinados lugares. O jogador precisa terminar antes que o tempo zere.</resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>mouse</necessidades>
+            <classificação>Para todos</classificação>
+            <plataforma>Web PC</plataforma>
+        </caracteristicas>
+        <link>http://jogos360.com.br/limpar_o_laboratorio.html</link>
+    </card>
+    <card id="4">
+        <titulo>Prodigy Math Game</titulo>
+        <resumo>É um jogo online educacional projetado para ajudar as crianças a aprender matemática de uma forma divertida e interativa. Desenvolvido pela Prodigy Education, o jogo combina elementos de aventura e fantasia com exercícios matemáticos, tornando a aprendizagem mais envolvente. No Prodigy Math Game, os jogadores assumem o papel de um aprendiz de mago em um mundo mágico chamado "Prodigy". Eles exploram terras cheias de personagens e criaturas mágicas, embarcando em missões e enfrentando desafios matemáticos ao longo do caminho. Os jogadores podem personalizar seus personagens e animais de estimação, além de desbloquear habilidades especiais à medida que progridem no jogo. A medida que avançam, eles encontram personagens não-jogáveis (NPCs) que fornecem problemas matemáticos para resolver.</resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>mouse</necessidades>
+            <classificação>Para todos</classificação>
+            <plataforma>Web PC, Mobile</plataforma>
+        </caracteristicas>
+        <link>https://www.prodigygame.com/main-en/</link>
+    </card>
+    <card id="5">
+        <titulo>Math Blaster</titulo>
+        <resumo>O Math Blaster é um popular jogo de matemática online que combina ação e aventura com exercícios matemáticos divertidos. Ele foi desenvolvido com o objetivo de ajudar as crianças a desenvolverem suas habilidades matemáticas de uma forma envolvente e estimulante. No Math Blaster, os jogadores embarcam em uma jornada espacial com um personagem chamado Blaster, que é um membro de uma equipe de defesa intergaláctica. Sua missão é proteger a galáxia de ameaças alienígenas usando habilidades matemáticas para resolver problemas e completar desafios. O jogo apresenta uma variedade de atividades matemáticas, como adição, subtração, multiplicação, divisão, problemas de lógica e muito mais. Os jogadores são incentivados a resolver esses problemas o mais rápido possível para ganhar pontos e progredir no jogo.</resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>celular</necessidades>
+            <classificação>Para todos</classificação>
+            <plataforma>App Mobile</plataforma>
+        </caracteristicas>
+        <link>https://play.google.com/store/apps/details?id=com.monsterbraingames.mathblaster</link>
+    </card>
+    <card id="6">
+        <titulo>Grocery Cachier</titulo>
+        <resumo>Grocery Cashier, também conhecido como Cashier Simulator, é um simulador de jogo que permite que os jogadores assumam o papel de um operador de caixa em um supermercado. O objetivo principal do jogo é registrar e processar as compras dos clientes de forma rápida e eficiente.</resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>mouse</necessidades>
+            <classificação>Para todos</classificação>
+            <plataforma>Web PC, Mobile</plataforma>
+        </caracteristicas>
+        <link>https://www.jogos360.com.br/grocery_cashier.html</link>
+    </card>
+    <card id="7">
+        <titulo>Jogo English for Children</titulo>
+        <resumo>O jogo English for children é voltado para o público infantil com a finalidade do melhor aprendizado de um novo idioma(inglês) de forma mais fluída e divertida, como também de forma interativa com a utilização de imagens para representar cada nova palavra aprendida. O jogo apresenta duas partes: As opções as quais você pode voltar para a página inicial, colocar som ou desligá-lo. E além disso, temos a parte “Iniciar” onde a criança pode escolher o modo estudo onde dentro desse modo terá alguns assuntos básicos para compreender a língua estrangeira como cores, animais, meios de transporte e etc.</resumo>
+        <caracteristicas>
+            <acessibilidade>Gratuito</acessibilidade>
+            <necessidades>mouse</necessidades>
+            <classificação>Para todos</classificação>
+            <plataforma>Web PC, Mobile</plataforma>
+        </caracteristicas>
+        <link>http://scratch.mit.edu/projects/314954539/.</link>
+    </card>
+</cards>
+</rss>

@@ -1,0 +1,313 @@
+:root {
+    /* spacing */
+    --master-padding: 15px 90px;
+    /* font */
+    --principal-font-family: 'Courier New', Courier, monospace;
+    --letter-links-shadow: 2px 2px 3px black;
+    --title-size: 40px;
+    /* attributes */
+    --line-border: 1px solid white;
+    --primary-background-config: url('../img/primary-background.png');
+    --portal-background-config: url('../img/portal-background.png');
+    --primary-color: rgb(38, 36, 44);
+    --primary-gap: 20px;
+    --pattern-width: 100%;
+}
+
+
+/* Components */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--principal-font-family);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: var(--letter-links-shadow);
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    left: 1px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+/* h1 {
+    font-size: var(--title-size);
+} */
+
+img {
+    width: var(--pattern-width);
+    height: 100%;
+}
+
+.central-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.exit {
+    display: none;
+    transition-delay: display .2s;
+}
+
+
+/* menu css elements */
+
+.nav-menu {
+    color: white;
+    width: var(--pattern-width);
+    background-color: var(--primary-color);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--master-padding);
+}
+
+.menu {
+    display: flex;
+    gap: var(--primary-gap);
+}
+
+
+/* portal css elements */
+
+.portal {
+    /* color: white; */
+    flex-direction: column;
+    background-image: var(--portal-background-config);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: var(--master-padding);
+}
+
+.portal-element {
+    flex-direction: column;
+    width: var(--pattern-width);
+    height: 500px;
+    /* border-bottom: var(--line-border); */
+}
+
+
+/* content css elements */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--master-padding);
+    gap: var(--primary-gap);
+    min-height: 80vh;
+}
+
+.primary-content {
+    background-image: var(--primary-background-config);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.content-games {
+    flex-direction: column;
+    width: var(--pattern-width);
+    gap: var(--primary-gap);
+}
+
+.games {
+    color: white;
+    flex-direction: row;
+    width: 70%;
+}
+
+.carrossel {
+    width: var(--pattern-width);
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.manual-navigation {
+    padding: var(--master-padding);
+    position: absolute;
+    display: flex;
+    gap: 5px;
+}
+
+.game {
+    height: 350px;
+    width: 100%;
+    padding: 20px 40px;
+    transition: opacity .3s ease-in-out;
+    background-color: var(--primary-color);
+}
+
+.game p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    /* number of lines to show */
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.bgclass1 {
+    background-color: none;
+}
+
+.bgclass2 {
+    background-color: red;
+}
+
+.bgclass3 {
+    background-color: green;
+}
+
+
+/* footer css elements */
+
+.footer {
+    background-color: var(--primary-color);
+    height: auto;
+    color: white;
+    /* temporariamente */
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* extra */
+
+
+/* buttons css */
+
+button {
+    border: none;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 0.5px solid gray;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* forms css */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px 0;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 5% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* responsive button */
+
+@media screen and (max-width: 300px) {
+    .signupbtn {
+        width: 100%;
+    }
+}
