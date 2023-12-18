@@ -37,7 +37,7 @@ CREATE TABLE `tb_administradores` (
 
 LOCK TABLES `tb_administradores` WRITE;
 /*!40000 ALTER TABLE `tb_administradores` DISABLE KEYS */;
-INSERT INTO `tb_administradores` VALUES (204,'ricken','dinizricken@gmail.com','rick1234');
+INSERT INTO `tb_administradores` VALUES (204,'test','test@test','test');
 /*!40000 ALTER TABLE `tb_administradores` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
